@@ -5,6 +5,6 @@ public class Vaca extends Animal{
 
     @Override
     public void Fazersom() {
-        System.out.println("muuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu");
+        System.out.println("muuuuuuuuuuuuuuuuuuu");
     }
 }
