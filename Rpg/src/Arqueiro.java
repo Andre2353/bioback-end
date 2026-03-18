@@ -8,7 +8,7 @@ public class Arqueiro extends Personagem {
 
     public void esquivar() {
         esquiva = true;
-        System.out.println("🏹 Esquivando! Pode evitar o próximo ataque.");
+        System.out.println(" Esquivando! Pode evitar o próximo ataque.");
     }
 
     @Override
