@@ -11,10 +11,10 @@ public class Mago extends Personagem {
     public void lancarMagia(Personagem inimigo) {
         int dano = this.ataque * 3;
         inimigo.receberDano(dano);
-<<<<<<< HEAD
+
         System.out.println(" A Bola de fogo causou " + dano + " de dano!");
-=======
+
         System.out.println(" Magia de raio causou " + dano + " de dano!");
->>>>>>> a28924b76a7b6096d9629b01169193cc9f4019af
+
     }
 }
