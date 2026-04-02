@@ -1,4 +1,4 @@
-public class Doce {
+public abstract class Doce {
     private String nome;
     private String cor ;
     private double peso;
