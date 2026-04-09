@@ -1,6 +1,6 @@
-public class Conta_PJ extends Conta {
+public class ContaPJ extends Conta {
 
-    public Conta_PJ(String numero, String agencia, String titular, double saldoInicial) {
+    public ContaPJ(double numero, String agencia, String titular, double saldoInicial) {
         super(numero, agencia, titular, saldoInicial);
     }
 
@@ -10,9 +10,9 @@ public class Conta_PJ extends Conta {
 
         if (getSaldo() >= valorTotal) {
             setSaldo(getSaldo() - valorTotal);
-            System.out.print("Saque de R$ " + valor + " (+ taxa de R$ 1.50) realizado com sucesso! ");
+            System.out.println("Saque de R$ " + valor + " (+ taxa de R$ 1.50) realizado com sucesso!");
         } else {
-            System.out.print("Saldo insuficiente! ");
+            System.out.println("Saldo insuficiente!");
         }
     }
 

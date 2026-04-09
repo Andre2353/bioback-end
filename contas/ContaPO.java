@@ -1,5 +1,6 @@
-public class Conta_cc extends Conta{
-    public Conta_cc(String numero, String agencia, String titular, double saldoInicial) {
+public class ContaPO extends Conta {
+
+    public ContaPO(double numero, String agencia, String titular, double saldoInicial) {
         super(numero, agencia, titular, saldoInicial);
     }
 
